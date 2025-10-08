@@ -1,6 +1,6 @@
 #!/bin/bash
 LOGFILE="/var/log/upssched.log"
-UPS="apc-modem@ip.address.of.nut.server"
+UPS="apc-modem@192.168.3.25"
 
 echo "[$(date)] upssched-cmd triggered: $1" >> "$LOGFILE"
 
