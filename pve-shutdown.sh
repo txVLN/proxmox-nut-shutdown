@@ -1,7 +1,7 @@
 #!/bin/bash
 # Place the script in /usr/local/sbin/
 LOGFILE="/var/log/pve-shutdown.log"
-UPS_NAME="apc-modem@192.168.3.25"
+UPS_NAME="ups@192.168.3.25"
 GRACE_PERIOD=180
 CHECK_INTERVAL=10
 
